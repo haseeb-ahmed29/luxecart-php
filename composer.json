@@ -1,0 +1,6 @@
+{
+  "name": "atelier/luxecart-php",
+  "require": {
+    "php": ">=8.1"
+  }
+}

@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-action]").forEach(b=>b.addEventListener("click",()=>{b.textContent=b.dataset.action==="export"?"Exported":"Preview updated";setTimeout(()=>b.textContent=b.dataset.action==="export"?"Export report":"Preview",1200)}));
